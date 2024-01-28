@@ -1,4 +1,6 @@
-/*general*/
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -6,10 +8,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 
-  "Segoe UI", "Roboto", "Oxygen", 
-  "Ubuntu", "Cantarell", "Fira Sans", 
-  "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
 }
 
 html {
@@ -144,8 +143,10 @@ a:hover {
 }
 
 .hamburger-icon span:first-child {
-  transform: n
+  transform: none;
 }
+
+/* SECTIONS */
 
 section {
   padding-top: 4vh;
@@ -214,7 +215,7 @@ section {
 
 /* BUTTONS */
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -228,23 +229,23 @@ section {
   border-radius: 2rem;
 }
 
-.btn-color-1, 
+.btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-1 :hover, 
-.btn-color-2 :hover{
+.btn-color-1:hover,
+.btn-color-2:hover {
   cursor: pointer;
 }
 
-.btn-color-1, 
-.btn-color-2 :hover{
+.btn-color-1,
+.btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
 }
 
-.btn-color-1 :hover {
+.btn-color-1:hover {
   background: rgb(0, 0, 0);
 }
 
@@ -253,7 +254,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255);
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
@@ -326,28 +327,129 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container { 
+.experience-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center; /* Center the boxes horizontally */
+}
+
+.article {
+  width: 15rem; /* Adjust the width as needed */
+  text-align: left;
+  margin-bottom: 1rem;
+  padding: 1.5rem; /* Add padding for spacing inside the boxes */
+  border: 1px solid rgb(163, 163, 163); /* Move border styling here */
+  border-radius: 2rem;
+}
+
+.article div {
+  display: flex;
+  flex-direction: column; /* Stack the main text and subtitle vertically */
+  height: 100%; /* Ensure the container takes full height */
+}
+
+.main-text {
+  display: flex;
+  justify-content: space-between; /* Align the <h3> elements side by side */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.main-text h3 {
+  flex-basis: 48%; /* Adjust the basis to allow for some gap between <h3> elements */
+}
+
+.subtitle {
+  margin-top: 1rem; /* Add margin to separate the <p> elements from <h3> elements */
+}
+
+.article h3,
+.article p {
+  margin: 0;
+}
+
+.article p {
+  width: 100%;
+}
+
+.article .icon {
+  cursor: default;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* CONTACT */
+
+#contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 70vh;
 }
 
-.article-container {
+.contact-info-upper-container {
   display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
 }
 
-article {
+.contact-info-container {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5 rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
 }
 
-article .icon {
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
   cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
