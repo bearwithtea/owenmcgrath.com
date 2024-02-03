@@ -209,9 +209,17 @@ section {
 
 /* ICONS */
 
-.icon {
+.linkedin-icon {
+  margin-top: 6.2px;
   cursor: pointer;
-  height: 2rem;
+  align-items: center;
+  height: 40px;
+}
+
+.github-icon {
+  cursor: pointer;
+  align-items: center;
+  height: 53px;
 }
 
 /* BUTTONS */
@@ -479,6 +487,10 @@ div.builtbyowen-description  {
 
 .email-icon {
   height: 2.5rem;
+}
+
+.linkedin-bottomicon {
+  height: 2.2rem;
 }
 
 /* FOOTER SECTION */
