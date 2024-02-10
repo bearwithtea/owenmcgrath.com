@@ -9,6 +9,7 @@
 
 body {
   font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  background-color: green;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(146, 8, 8);
 }
 
 /* TRANSITION */
@@ -46,13 +47,13 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(181, 40, 40);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(86, 78, 78);
 }
 
 a:hover {
-  color: grey;
+  color: rgb(237, 0, 0);
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -97,7 +98,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(105, 56, 56);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -315,7 +316,7 @@ section {
 .details-container {
   padding: 2rem;
   flex: 1;
-  background: white;
+  background-image: linear-gradient(to bottom right, red, yellow);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
