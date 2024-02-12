@@ -283,21 +283,18 @@ section {
 }
 
 .aboutexperience-container,
-.abouteducation-container2 {
+.abouteducation-container2,
+.about-text-container {
   width: 100%;
   text-align: left;
   margin-bottom: 1rem; /* Add margin-bottom to create space between the two divs */
-  margin-left: 9rem;
-  margin-right: 50rem;
-}
-
-.aboutexperience-container {
-  border-bottom-style: solid;
-
+  margin-left: 19%;
+  margin-right: 80%;
 }
 
 .about-text-container {
-  padding-right: 0rem;
+  padding-top: 2%;
+  width: 75%;
 }
 
 .text-container {
