@@ -284,7 +284,9 @@ section {
 
 .aboutexperience-container,
 .abouteducation-container2,
-.about-text-container {
+.about-text-container,
+.hobbies,
+.hobbies-description {
   width: 100%;
   text-align: left;
   margin-bottom: 1rem; /* Add margin-bottom to create space between the two divs */
