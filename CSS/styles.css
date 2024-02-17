@@ -316,8 +316,11 @@ section {
   margin-left: 1.8rem;
   height: 400px;
   width: 270px;
-  border: 2rem;
-  border-radius: 2rem;
+}
+
+.current-favorites {
+  margin-left: 60%;
+  margin-top: -8%;
 }
 
 .about-title {
