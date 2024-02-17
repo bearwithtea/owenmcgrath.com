@@ -431,10 +431,14 @@ section {
   margin-top: -80px;
 }
 
-
-
 .django-img {
+  margin-left: 65px;
+  margin-top: -250px;
+}
 
+.sql-img {
+  margin-left: 350px;
+  margin-top: 50px;
 }
 
 /* CONTACT */
