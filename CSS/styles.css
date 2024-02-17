@@ -368,10 +368,18 @@ section {
   transition: .2s;
 }
 
+.css3-img:hover {
+  transform: scale(1.1); 
+}
+
 .java-img {
   margin-left: 820px;
   margin-top: -550px;
   transition: .2s;
+}
+
+.java-img:hover {
+  transform: scale(1.1); 
 }
 
 .python-img {
@@ -380,10 +388,18 @@ section {
   transition: .2s;
 }
 
+.python-img:hover {
+  transform: scale(1.1); 
+}
+
 .swift-img {
   margin-left: 675px;
   margin-top: -50px;
   transition: .2s;
+}
+
+.swift-img:hover {
+  transform: scale(1.1); 
 }
 
 .flutter-img {
@@ -392,10 +408,18 @@ section {
   transition: .2s;
 }
 
+.flutter-img:hover {
+  transform: scale(1.1); 
+}
+
 .jira-img {
   margin-left: 650px;
   margin-top: -450px;
   transition: .2s;
+}
+
+.jira-img:hover {
+  transform: scale(1.1); 
 }
 
 .github-img {
@@ -404,10 +428,18 @@ section {
   transition: .2s;
 }
 
+.github-img:hover {
+  transform: scale(1.1); 
+}
+
 .figma-img {
   margin-left: 900px;
   margin-top: -350px;
   transition: .2s;
+}
+
+.figma-img:hover {
+  transform: scale(1.1); 
 }
 
 .react-img {
@@ -416,29 +448,57 @@ section {
    transition: .2s;
 }
 
+.react-img:hover {
+  transform: scale(1.1); 
+}
+
 .dart-img {
   margin-left: 1010px;
   margin-top: -200px;
   transition: .2s;
 }
 
+.dart-img:hover {
+  transform: scale(1.1); 
+}
+
 .bash-img {
   margin-left: 970px;
+  transition: .2s;
+}
+
+.bash-img:hover {
+  transform: scale(1.1); 
 }
 
 .php-img {
   margin-left: 50px;
   margin-top: -80px;
+  transition: .2s;
+}
+
+.php-img:hover {
+  transform: scale(1.1); 
 }
 
 .django-img {
   margin-left: 65px;
   margin-top: -250px;
+  transition: .2s;
+}
+
+.django-img:hover {
+  transform: scale(1.1); 
 }
 
 .sql-img {
   margin-left: 350px;
   margin-top: 50px;
+  transition: .2s;
+}
+
+.sql-img:hover {
+  transform: scale(1.1); 
 }
 
 /* CONTACT */
