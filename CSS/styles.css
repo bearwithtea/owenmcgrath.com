@@ -286,7 +286,8 @@ section {
 .abouteducation-container2,
 .about-text-container,
 .hobbies,
-.hobbies-description {
+.hobbies-description,
+.current-favorites {
   width: 100%;
   text-align: left;
   margin-bottom: 1rem; /* Add margin-bottom to create space between the two divs */
@@ -295,7 +296,7 @@ section {
 }
 
 .about-text-container {
-  padding-top: 2%;
+  padding-top: 5%;
   width: 75%;
 }
 
@@ -320,7 +321,7 @@ section {
 
 .current-favorites {
   margin-left: 60%;
-  margin-top: -8%;
+  margin-top: -156px;
 }
 
 .about-title {
@@ -340,114 +341,100 @@ section {
   position: relative;
 }
 
-.experience-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 700;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-.experience-details-container {
-  justify-content: center; /* Center the boxes horizontally */
-}
-
-.article {
-  width: 15rem; /* Adjust the width as needed */
-  text-align: left;
-  margin-bottom: 1rem;
-  padding: 1.5rem; /* Add padding for spacing inside the boxes */
-  border: 1px solid rgb(0, 0, 0); /* Move border styling here */
-  border-radius: 2rem;
-}
-
-.article div {
+.html5-img {
   display: flex;
-  flex-direction: column; /* Stack the main text and subtitle vertically */
-  height: 100%; /* Ensure the container takes full height */
+  margin-left: 480px;
+  margin-top: 100px;
+  transition: .2s;
 }
 
-.main-text {
-  display: flex;
-  justify-content: space-between; /* Align the <h3> elements side by side */
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+.html5-img:hover {
+  transform: scale(1.1); 
 }
 
-.main-text h3 {
-  flex-basis: 48%; /* Adjust the basis to allow for some gap between <h3> elements */
+.js-img {
+  margin-left: 400px;
+  margin-top: -100px;
+  transition: .2s;
 }
 
-.subtitle {
-  margin-top: 1rem; /* Add margin to separate the <p> elements from <h3> elements */
+.js-img:hover {
+  transform: scale(1.1); 
 }
 
-.article h3,
-.article p {
-  margin: 0;
+.css3-img {
+  margin-left: 220px;
+  margin-top: -450px;
+  transition: .2s;
 }
 
-.article p {
-  width: 100%;
+.java-img {
+  margin-left: 820px;
+  margin-top: -550px;
+  transition: .2s;
 }
 
-.article .icon {
-  cursor: default;
+.python-img {
+  margin-left: 720px;
+  margin-top: -100px;
+  transition: .2s;
 }
 
-/* BUILT BY OWEN SECTION */
-
-#projects {
-  position: relative;
+.swift-img {
+  margin-left: 675px;
+  margin-top: -50px;
+  transition: .2s;
 }
 
-.color-container {
-  border-color: rgb(0, 0, 0);
+.flutter-img {
+  margin-left: 200px;
+  margin-top: 50px;
+  transition: .2s;
 }
 
-.project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+.jira-img {
+  margin-left: 650px;
+  margin-top: -450px;
+  transition: .2s;
 }
 
-.project-title {
-  margin: 1rem;
-  color: black;
+.github-img {
+  margin-left: 810px;
+  margin-top: -190px;
+  transition: .2s;
+}
+
+.figma-img {
+  margin-left: 900px;
+  margin-top: -350px;
+  transition: .2s;
+}
+
+.react-img {
+   margin-left: 150px;
+   margin-top: -450px;
+   transition: .2s;
+}
+
+.dart-img {
+  margin-left: 1010px;
+  margin-top: -200px;
+  transition: .2s;
+}
+
+.bash-img {
+  margin-left: 970px;
+}
+
+.php-img {
+  margin-left: 50px;
+  margin-top: -80px;
 }
 
 
 
-div.builtbyowen-description  {
-  text-align: center;
-  margin: 2%;
-  
-}
+.django-img {
 
-#keyboard-photo img {
-  width: 400px ;
-  height: 300px;
-  border-radius: 2rem;
-}
-
-#computer-photo img {
-  width: 400px;
-  height: 300px;
-  border-radius: 2rem;
-}
-
-#keyboard-description p {
-  margin: 8px;
-  margin-bottom: 1px;
-}
-
-#computer-description p {
-  margin-top: 8px;
-  margin-bottom: 1px;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
-  font-size: 25vw;
 }
 
 /* CONTACT */
