@@ -279,7 +279,7 @@ section {
 .about-containers {
   margin-top: 2rem;
   display: flex;
-  flex-direction: column; /* Stack flex items vertically */
+  flex-direction: column; 
 }
 
 .aboutexperience-container,
@@ -290,7 +290,7 @@ section {
 .current-favorites {
   width: 100%;
   text-align: left;
-  margin-bottom: 1rem; /* Add margin-bottom to create space between the two divs */
+  margin-bottom: 1rem;
   margin-left: 19%;
   margin-right: 80%;
 }
@@ -320,8 +320,10 @@ section {
 }
 
 .current-favorites {
+  overflow: visible;
+  position: static;
   margin-left: 60%;
-  margin-top: -156px;
+  margin-top: -15%;
 }
 
 .about-title {
